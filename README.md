@@ -11,10 +11,8 @@ Welcome to the GitHub repository for **[phatmal.live](https://winyannainghtut.gi
 1. [Featured Novels](#-featured-novels)
 2. [Key Features](#-key-features)
 3. [Technology & Aesthetics](#-technology--aesthetics)
-4. [Project Directory Layout](#-project-directory-layout)
-5. [Local Development](#-local-development)
-6. [Deployment](#-deployment)
-7. [Disclaimer & Copyright](#-disclaimer--copyright)
+4. [Deployment](#-deployment)
+5. [Disclaimer & Copyright](#-disclaimer--copyright)
 
 ---
 
@@ -61,54 +59,6 @@ Our translation catalog features some of the most highly-rated novels in the ent
   - `Inter` for ultra-clean, highly readable UI text and novel descriptions.
 - **Icons:** [FontAwesome 6.4.0](https://fontawesome.com/)
 - **Interactive Scripting:** Lightweight, zero-dependency Vanilla ES6+ JavaScript.
-
----
-
-## 📁 Project Directory Layout
-
-```text
-winyannainghtut.github.io/
-│
-├── index.html                  # Main entrance & premium portal hub
-├── README.md                   # Repository documentation (this file)
-│
-├── assets/                     # Shared static assets
-│   └── images/                 # Custom cover artwork and background assets
-│       ├── hero_bg.png         # Majestic high-fantasy hero background
-│       ├── renegade_immortal.png # Wang Lin character art & novel cover
-│       ├── pursuit_of_the_truth.png # Su Ming character art & novel cover
-│       └── mortal_journey.png  # Han Li character art & novel cover
-│
-├── Renegade-immortal/          # Chapter files and directory for Renegade Immortal
-├── pott/                       # Chapter files and directory for Pursuit of the Truth
-└── ARecordofaMortalJourneytoImmortality/ # Chapter files and directory for Mortal's Journey
-```
-
----
-
-## 💻 Local Development
-
-To run the portal locally and test modifications:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/winyannainghtut/winyannainghtut.github.io.git
-   cd winyannainghtut.github.io
-   ```
-
-2. **Serve the project:**
-   Since the project uses absolute-relative links (`/Renegade-immortal/`, `/pott/`), it is best served via a local web server (rather than opening the raw HTML file from disk). You can launch a quick server using any of the following:
-
-   - **Using VS Code Live Server extension:** Click "Go Live" in the bottom-right corner.
-   - **Using Python:**
-     ```bash
-     python -m http.server 8000
-     ```
-     Then navigate to `http://localhost:8000`.
-   - **Using Node.js (`http-server`):**
-     ```bash
-     npx http-server -p 8000
-     ```
 
 ---
 
