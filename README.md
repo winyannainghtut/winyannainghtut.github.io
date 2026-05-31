@@ -25,19 +25,19 @@ Our translation catalog features some of the most highly-rated novels in the ent
 ### 1. [Renegade Immortal (仙逆)](/Renegade-immortal/)
 - **Author:** Er Gen (耳根)
 - **Genre:** Xianxia, Cultivation, Action, Dark Fantasy, Defiance
-- **Status:** Active / Ongoing Translation
+- **Status:** Completed
 - **Overview:** Follow the legendary saga of **Wang Lin**, a mortal youth born with mediocre talents who defies the heavens, survives ruthless betrayals, and steps onto a path paved with blood and determination to become a supreme god who rules over his own destiny.
 
 ### 2. [Pursuit of the Truth (求魔 - POTT)](/pott/)
 - **Author:** Er Gen (耳根)
 - **Genre:** Xianxia, Tragedy, Psychological, Cultivation, Mystery
-- **Status:** Completed
+- **Status:** Active / Ongoing Translation
 - **Overview:** Journey along with **Su Ming**, the last Berserker, as he awakens in a freezing mountain of ice and snow. Plagued by lost memories and surrounded by an illusionary reality, Su Ming embarks on a tragic, soul-stirring journey to seek the truth of his identity and tear down the chains of fate.
 
 ### 3. [A Record of a Mortal's Journey to Immortality (凡人修仙传 - RMJI)](/ARecordofaMortalJourneytoImmortality/)
 - **Author:** Wang Yu (忘语)
 - **Genre:** Xianxia, Cultivation, Pragmatic, Action, Adventure
-- **Status:** Active / Ongoing Translation
+- **Status:** Completed
 - **Overview:** Follow the story of **Han Li**, a highly cautious and ordinary village boy who joins a minor sect by chance. Lacking inherent talent, Han Li must rely on his razor-sharp wits, extreme vigilance, and a mysterious green vial that matures spiritual herbs to survive a brutal, cutthroat cultivation world and step onto the path of immortality.
 
 ---
