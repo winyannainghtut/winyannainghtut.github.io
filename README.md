@@ -44,7 +44,6 @@ Our translation catalog features some of the most highly-rated novels in the ent
 
 - **Xianxia-Inspired Dark Aesthetics:** The portal is designed with a premium, custom dark-fantasy palette (obsidian, royal purples, and deep gold accents) to match the atmospheric themes of the novels.
 - **Dynamic Search & Filtering:** Instant, client-side searching and filtering of novels using HTML5 data attributes and optimized JS.
-- **Reading Progress Tracker:** Built-in interactive widget utilizing `localStorage` to persist your reading progress across sessions.
 - **Responsive Layout:** Tailored with mobile-first CSS Grid and Flexbox grids, ensuring stunning visual displays across mobile, tablet, and desktop screens.
 - **Quotes Carousel:** A curated carousel showcasing defining, epic quotes from the main characters of the novels (Wang Lin, Su Ming, and Han Li) to keep readers inspired.
 
