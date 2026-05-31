@@ -1,3 +1,1717 @@
-<h1>Welcome to phatmal.live</h1>
-<a href="/Renegade-immortal/">Renegade Immortal</a>
-<a href="/pott/">Pott</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phatmal.live | Premium Webnovel Translation Portal</title>
+    <meta name="description" content="Welcome to Phatmal.live (ဖတ်မယ်), the premier portal for professional Chinese webnovel translations, featuring masterpieces like Renegade Immortal, Pursuit of the Truth (POTT), and A Record of a Mortal's Journey to Immortality (RMJI).">
+    <meta name="keywords" content="Phatmal, phatmal.live, ဖတ်မယ်, Renegade Immortal, Pursuit of the Truth, POTT, A Record of a Mortal's Journey to Immortality, RMJI, Er Gen, Wang Yu, Chinese webnovels, Xianxia, Cultivation, Translation, Burmese">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://winyannainghtut.github.io/">
+    <meta property="og:title" content="Phatmal.live | Premium Webnovel Translation Portal">
+    <meta property="og:description" content="Immerse yourself in epic Xianxia translations including Renegade Immortal, Pursuit of the Truth, and A Record of a Mortal's Journey to Immortality. Read high-quality translations for free.">
+    <meta property="og:image" content="assets/images/hero_bg.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://winyannainghtut.github.io/">
+    <meta property="twitter:title" content="Phatmal.live | Premium Webnovel Translation Portal">
+    <meta property="twitter:description" content="Immerse yourself in epic Xianxia translations including Renegade Immortal and Pursuit of the Truth. Read high-quality translations for free.">
+
+    <!-- Google Fonts & FontAwesome -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Custom Properties for Premium Aesthetics */
+        :root {
+            --bg-base: #0a080c;
+            --bg-surface: rgba(18, 14, 24, 0.75);
+            --bg-card: rgba(26, 20, 34, 0.85);
+            --border-glow: rgba(155, 93, 229, 0.25);
+            --accent-purple: #9b5de5;
+            --accent-gold: #f1c40f;
+            --accent-teal: #00b4d8;
+            --accent-crimson: #ff0055;
+            --text-primary: #f3f0f7;
+            --text-secondary: #b5a9c2;
+            --text-muted: #7d708f;
+            --transition-speed: 0.3s;
+            --font-display: 'Cinzel', serif;
+            --font-sans: 'Inter', sans-serif;
+            --shadow-glow: 0 0 20px rgba(155, 93, 229, 0.3);
+        }
+
+        /* Reset & Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(155, 93, 229, 0.08) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(0, 180, 216, 0.06) 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: var(--bg-base);
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2a2036;
+            border-radius: 5px;
+            border: 2px solid var(--bg-base);
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-purple);
+        }
+
+        /* Layout & Utilities */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 24px;
+            border-radius: 6px;
+            font-family: var(--font-sans);
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            cursor: pointer;
+            transition: all var(--transition-speed) ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-purple), #7b2cbf);
+            color: #fff;
+            border: none;
+            box-shadow: 0 4px 15px rgba(155, 93, 229, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(155, 93, 229, 0.6);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--text-primary);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+        }
+
+        .btn-secondary:hover {
+            border-color: var(--accent-teal);
+            color: var(--accent-teal);
+            background: rgba(0, 180, 216, 0.05);
+            transform: translateY(-2px);
+        }
+
+        /* Header / Navbar */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(10, 8, 12, 0.85);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(155, 93, 229, 0.15);
+            transition: background var(--transition-speed) ease;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+        }
+
+        .logo-group {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+            background: linear-gradient(135deg, var(--text-primary) 30%, var(--accent-purple) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase;
+        }
+
+        .sub-logo {
+            font-size: 0.75rem;
+            color: var(--accent-teal);
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-top: -4px;
+        }
+
+        .nav-links {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 32px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color var(--transition-speed) ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent-purple);
+            transition: width var(--transition-speed) ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text-primary);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .social-icon {
+            color: var(--text-secondary);
+            font-size: 1.3rem;
+            transition: color var(--transition-speed) ease;
+            text-decoration: none;
+        }
+
+        .social-icon:hover {
+            color: var(--accent-purple);
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            padding: 200px 0 120px;
+            background: linear-gradient(rgba(10, 8, 12, 0.4), var(--bg-base)), url('assets/images/hero_bg.png') no-repeat center center/cover;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid rgba(155, 93, 229, 0.1);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, transparent 20%, var(--bg-base) 90%);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            max-width: 700px;
+        }
+
+        .hero-tagline {
+            display: inline-block;
+            background: rgba(155, 93, 229, 0.15);
+            border: 1px solid rgba(155, 93, 229, 0.3);
+            color: #d8b4fe;
+            padding: 6px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 24px;
+            animation: fadeInDown 0.8s ease;
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: 3.5rem;
+            line-height: 1.15;
+            font-weight: 900;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        .hero-title span {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-teal));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-description {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 36px;
+            max-width: 600px;
+            animation: fadeInUp 1s ease;
+        }
+
+        .hero-cta {
+            display: flex;
+            gap: 16px;
+            animation: fadeInUp 1.2s ease;
+        }
+
+        /* Floating Cards Visualizer */
+        .hero-decorator {
+            position: absolute;
+            right: 10%;
+            top: 55%;
+            transform: translateY(-50%);
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(155, 93, 229, 0.15) 0%, transparent 70%);
+            pointer-events: none;
+            display: none;
+        }
+
+        @media (min-width: 1024px) {
+            .hero-decorator {
+                display: block;
+            }
+        }
+
+        /* Search & Filter Section */
+        .search-section {
+            padding: 60px 0;
+            margin-top: -60px;
+            position: relative;
+            z-index: 50;
+        }
+
+        .search-wrapper {
+            background: var(--bg-surface);
+            backdrop-filter: blur(16px);
+            border: 1px solid rgba(155, 93, 229, 0.2);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .search-bar-container {
+            position: relative;
+            width: 100%;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--text-muted);
+            font-size: 1.2rem;
+        }
+
+        .search-input {
+            width: 100%;
+            background: rgba(10, 8, 12, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 16px 20px 16px 54px;
+            border-radius: 8px;
+            color: var(--text-primary);
+            font-family: var(--font-sans);
+            font-size: 1rem;
+            outline: none;
+            transition: all var(--transition-speed) ease;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-purple);
+            box-shadow: 0 0 15px rgba(155, 93, 229, 0.3);
+            background: rgba(10, 8, 12, 0.9);
+        }
+
+        .filter-tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            list-style: none;
+        }
+
+        .filter-tab {
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            color: var(--text-secondary);
+            transition: all var(--transition-speed) ease;
+        }
+
+        .filter-tab:hover, .filter-tab.active {
+            background: rgba(155, 93, 229, 0.15);
+            border-color: var(--accent-purple);
+            color: #d8b4fe;
+        }
+
+        /* Novels Catalog Grid */
+        .catalog-section {
+            padding: 40px 0 100px;
+        }
+
+        .section-header {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            position: relative;
+            display: inline-block;
+            margin-bottom: 12px;
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: var(--accent-purple);
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+
+        .section-subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .novels-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        @media (min-width: 768px) {
+            .novels-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .novels-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Glassmorphic Novel Card */
+        .novel-card {
+            background: var(--bg-card);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        .novel-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 16px;
+            box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+            pointer-events: none;
+            transition: opacity var(--transition-speed) ease;
+        }
+
+        .novel-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(155, 93, 229, 0.3);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .novel-card-image-wrapper {
+            position: relative;
+            width: 100%;
+            height: 320px;
+            overflow: hidden;
+            background: #15101c;
+        }
+
+        .novel-card-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .novel-card:hover .novel-card-image {
+            transform: scale(1.08);
+        }
+
+        .novel-card-badge {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: rgba(10, 8, 12, 0.85);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--accent-gold);
+            color: var(--accent-gold);
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .novel-card-content {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .novel-metadata {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 12px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .novel-genre-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 16px;
+        }
+
+        .genre-tag {
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 3px 10px;
+            border-radius: 4px;
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-secondary);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .genre-tag.ri-theme {
+            background: rgba(0, 180, 216, 0.08);
+            border-color: rgba(0, 180, 216, 0.2);
+            color: #90e0ef;
+        }
+
+        .genre-tag.pott-theme {
+            background: rgba(255, 0, 85, 0.08);
+            border-color: rgba(255, 0, 85, 0.2);
+            color: #ff85a1;
+        }
+
+        .genre-tag.rmji-theme {
+            background: rgba(46, 204, 113, 0.08);
+            border-color: rgba(46, 204, 113, 0.2);
+            color: #4ade80;
+        }
+
+        .novel-title-chinese {
+            font-family: var(--font-display);
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--accent-purple);
+            margin-bottom: 4px;
+            letter-spacing: 2px;
+        }
+
+        .novel-title-english {
+            font-family: var(--font-display);
+            font-size: 1.7rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: 10px;
+            line-height: 1.25;
+            transition: color var(--transition-speed) ease;
+        }
+
+        .novel-card:hover .novel-title-english {
+            color: #d8b4fe;
+        }
+
+        .novel-author {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+
+        .novel-author i {
+            margin-right: 6px;
+            color: var(--text-muted);
+        }
+
+        .novel-description {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            flex-grow: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .novel-card-footer {
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .novel-stats {
+            display: flex;
+            gap: 16px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .novel-stats span i {
+            margin-right: 6px;
+            color: var(--accent-purple);
+        }
+
+        /* Latest Updates Section */
+        .updates-section {
+            background: rgba(18, 14, 24, 0.4);
+            padding: 80px 0;
+            border-top: 1px solid rgba(155, 93, 229, 0.1);
+            border-bottom: 1px solid rgba(155, 93, 229, 0.1);
+        }
+
+        .updates-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 30px;
+        }
+
+        @media (min-width: 768px) {
+            .updates-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 1024px) {
+            .updates-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        .updates-column {
+            background: var(--bg-surface);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 30px;
+        }
+
+        .updates-col-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 2px solid rgba(155, 93, 229, 0.15);
+            padding-bottom: 12px;
+        }
+
+        .updates-col-title.ri-col {
+            color: var(--accent-teal);
+            border-bottom-color: rgba(0, 180, 216, 0.2);
+        }
+
+        .updates-col-title.pott-col {
+            color: var(--accent-crimson);
+            border-bottom-color: rgba(255, 0, 85, 0.2);
+        }
+
+        .updates-col-title.rmji-col {
+            color: #2ecc71;
+            border-bottom-color: rgba(46, 204, 113, 0.2);
+        }
+
+        .chapter-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            list-style: none;
+        }
+
+        .chapter-item {
+            background: rgba(10, 8, 12, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all var(--transition-speed) ease;
+        }
+
+        .chapter-item:hover {
+            background: rgba(155, 93, 229, 0.05);
+            border-color: rgba(155, 93, 229, 0.2);
+            transform: translateX(4px);
+        }
+
+        .chapter-info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .chapter-link {
+            text-decoration: none;
+            color: var(--text-primary);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color var(--transition-speed) ease;
+        }
+
+        .chapter-link:hover {
+            color: var(--accent-purple);
+        }
+
+        .chapter-title {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .chapter-date {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            white-space: nowrap;
+        }
+
+        /* Quotes Carousel Component */
+        .quotes-section {
+            padding: 100px 0;
+            position: relative;
+            background: radial-gradient(circle at center, rgba(155, 93, 229, 0.05) 0%, transparent 60%);
+        }
+
+        .quotes-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+        }
+
+        .quote-icon {
+            font-size: 3rem;
+            color: rgba(155, 93, 229, 0.2);
+            margin-bottom: 24px;
+        }
+
+        .quote-card {
+            display: none;
+            animation: fadeIn 0.8s ease;
+        }
+
+        .quote-card.active {
+            display: block;
+        }
+
+        .quote-text {
+            font-family: var(--font-display);
+            font-size: 1.6rem;
+            line-height: 1.5;
+            font-weight: 400;
+            color: var(--text-primary);
+            margin-bottom: 24px;
+            font-style: italic;
+        }
+
+        .quote-author {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--accent-purple);
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .quote-novel {
+            font-size: 0.8rem;
+            color: var(--text-secondary);
+            margin-top: 4px;
+        }
+
+        .quote-dots {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 40px;
+        }
+
+        .quote-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            cursor: pointer;
+            transition: background var(--transition-speed) ease;
+        }
+
+        .quote-dot.active {
+            background: var(--accent-purple);
+        }
+
+        /* About & Philosophy Section */
+        .about-section {
+            padding: 80px 0;
+            background: rgba(18, 14, 24, 0.2);
+            border-top: 1px solid rgba(155, 93, 229, 0.05);
+        }
+
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media (min-width: 992px) {
+            .about-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        .about-content h3 {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            margin-bottom: 18px;
+            color: var(--text-primary);
+        }
+
+        .about-content p {
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+
+        .features-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .feature-icon-wrapper {
+            background: rgba(155, 93, 229, 0.15);
+            border: 1px solid rgba(155, 93, 229, 0.3);
+            width: 44px;
+            height: 44px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            color: var(--accent-purple);
+            font-size: 1.2rem;
+        }
+
+        .feature-text h4 {
+            font-weight: 600;
+            font-size: 1.05rem;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+
+        .feature-text p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin: 0;
+        }
+
+        /* Reading Progress Mock Tool */
+        .tracker-card {
+            background: var(--bg-surface);
+            border: 1px solid rgba(155, 93, 229, 0.15);
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+        }
+
+        .tracker-title {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            padding-bottom: 10px;
+        }
+
+        .tracker-item {
+            margin-bottom: 20px;
+        }
+
+        .tracker-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .tracker-bar {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .tracker-bar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-purple), var(--accent-teal));
+            border-radius: 10px;
+            width: 0;
+            transition: width 1.5s cubic-bezier(0.1, 0.8, 0.3, 1);
+        }
+
+        .tracker-actions {
+            margin-top: 15px;
+            display: flex;
+            gap: 12px;
+        }
+
+        .tracker-btn {
+            background: transparent;
+            border: 1px solid rgba(155, 93, 229, 0.4);
+            color: var(--accent-purple);
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all var(--transition-speed) ease;
+        }
+
+        .tracker-btn:hover {
+            background: var(--accent-purple);
+            color: #fff;
+        }
+
+        /* Footer Section */
+        footer {
+            background: #060507;
+            padding: 80px 0 40px;
+            border-top: 1px solid rgba(155, 93, 229, 0.15);
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        @media (min-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 2fr 1fr 1fr;
+            }
+        }
+
+        .footer-about .logo-group {
+            margin-bottom: 20px;
+        }
+
+        .footer-about p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 24px;
+            max-width: 350px;
+        }
+
+        .footer-links h5 {
+            font-family: var(--font-display);
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--text-primary);
+            letter-spacing: 1px;
+        }
+
+        .footer-links ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            transition: color var(--transition-speed) ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-purple);
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        @media (min-width: 768px) {
+            .footer-bottom {
+                flex-direction: row;
+            }
+        }
+
+        .footer-bottom p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .footer-bottom-links {
+            display: flex;
+            gap: 24px;
+        }
+
+        .footer-bottom-links a {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: color var(--transition-speed) ease;
+        }
+
+        .footer-bottom-links a:hover {
+            color: var(--accent-purple);
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Navbar */
+        .mobile-toggle {
+            display: none;
+            background: transparent;
+            border: none;
+            color: var(--text-primary);
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 80px;
+                left: 0;
+                width: 100%;
+                background: var(--bg-base);
+                flex-direction: column;
+                padding: 40px 0;
+                border-bottom: 1px solid rgba(155, 93, 229, 0.15);
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-toggle {
+                display: block;
+            }
+
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .hero {
+                padding-top: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container navbar">
+            <a href="#" class="logo-group" id="logo-main">
+                <span class="logo">Phatmal</span>
+                <span class="sub-logo">ဖတ်မယ်.live</span>
+            </a>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#catalog">Novels</a></li>
+                <li><a href="#updates">Latest Updates</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="https://github.com/winyannainghtut" class="social-icon" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-icon" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-tagline">Premium Xianxia Webnovel Translations</span>
+                <h1 class="hero-title">Step into the Realms of <span>Immortality</span> & <span>Truth</span></h1>
+                <p class="hero-description">
+                    Welcome to <strong>Phatmal.live</strong> (ဖတ်မယ်), a curated sanctuary of professional translation works, showcasing legendary Chinese sagas where mortal youths challenge heavens, shatter destiny, and discover cosmic truth.
+                </p>
+                <div class="hero-cta">
+                    <a href="#catalog" class="btn btn-primary" id="explore-novels-btn"><i class="fa-solid fa-book-open"></i> Explore Catalog</a>
+                    <a href="#updates" class="btn btn-secondary" id="latest-chapters-btn"><i class="fa-solid fa-clock"></i> Latest Chapters</a>
+                </div>
+            </div>
+            <div class="hero-decorator"></div>
+        </div>
+    </section>
+
+    <!-- Search & Filter Bar Section -->
+    <section class="search-section" id="search-section">
+        <div class="container">
+            <div class="search-wrapper">
+                <div class="search-bar-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" class="search-input" id="search-bar" placeholder="Search by title, author, description, or genres..." aria-label="Search novels">
+                </div>
+                <div class="filter-wrapper">
+                    <ul class="filter-tabs">
+                        <li class="filter-tab active" data-filter="all" id="filter-all">All Works</li>
+                        <li class="filter-tab" data-filter="ergen" id="filter-ergen">Er Gen Universe</li>
+                        <li class="filter-tab" data-filter="completed" id="filter-completed">Completed</li>
+                        <li class="filter-tab" data-filter="dark" id="filter-dark">Dark Fantasy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Novels Catalog -->
+    <section class="catalog-section" id="catalog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Masterpieces</h2>
+                <p class="section-subtitle">Dive deep into our highly praised translations. Accurately translated, beautifully formatted, and curated for the ultimate reading experience.</p>
+            </div>
+
+            <div class="novels-grid" id="novels-grid">
+                
+                <!-- Renegade Immortal Card -->
+                <article class="novel-card" data-author="Er Gen" data-categories="ergen dark" id="card-renegade-immortal">
+                    <div class="novel-card-image-wrapper">
+                        <img src="assets/images/renegade_immortal.png" alt="Renegade Immortal Cover" class="novel-card-image">
+                        <span class="novel-card-badge">Hot</span>
+                    </div>
+                    <div class="novel-card-content">
+                        <div class="novel-metadata">
+                            <span><i class="fa-solid fa-scroll"></i> Chapter 1025+</span>
+                            <span>4.8 <i class="fa-solid fa-star" style="color: var(--accent-gold);"></i></span>
+                        </div>
+                        <h4 class="novel-title-chinese">仙逆 · Xian Ni</h4>
+                        <h3 class="novel-title-english">Renegade Immortal</h3>
+                        <p class="novel-author"><i class="fa-solid fa-pen-nib"></i> Er Gen</p>
+                        <div class="novel-genre-tags">
+                            <span class="genre-tag ri-theme">Xianxia</span>
+                            <span class="genre-tag ri-theme">Cultivation</span>
+                            <span class="genre-tag ri-theme">Action</span>
+                            <span class="genre-tag ri-theme">Defiance</span>
+                        </div>
+                        <p class="novel-description">
+                            Wang Lin is a very ordinary mortal youth who fortuitously gets a chance to enter a declining sect. Yet, with mediocre talents, he faces the brutal, cutthroat reality of the cultivation world. Watch him walk the path of bloody slaughter, defy heavens, and rise to become a supreme god who commands destiny.
+                        </p>
+                        <div class="novel-card-footer">
+                            <div class="novel-stats">
+                                <span><i class="fa-solid fa-rotate"></i> Ongoing</span>
+                            </div>
+                            <a href="/Renegade-immortal/" class="btn btn-primary" id="ri-read-btn">Read Now <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Pursuit of the Truth Card -->
+                <article class="novel-card" data-author="Er Gen" data-categories="ergen dark completed" id="card-pursuit-of-truth">
+                    <div class="novel-card-image-wrapper">
+                        <img src="assets/images/pursuit_of_the_truth.png" alt="Pursuit of the Truth Cover" class="novel-card-image">
+                        <span class="novel-card-badge">Top Rated</span>
+                    </div>
+                    <div class="novel-card-content">
+                        <div class="novel-metadata">
+                            <span><i class="fa-solid fa-scroll"></i> Chapter 810+</span>
+                            <span>4.9 <i class="fa-solid fa-star" style="color: var(--accent-gold);"></i></span>
+                        </div>
+                        <h4 class="novel-title-chinese">求魔 · Qiu Mo</h4>
+                        <h3 class="novel-title-english">Pursuit of the Truth</h3>
+                        <p class="novel-author"><i class="fa-solid fa-pen-nib"></i> Er Gen</p>
+                        <div class="novel-genre-tags">
+                            <span class="genre-tag pott-theme">Xianxia</span>
+                            <span class="genre-tag pott-theme">Tragedy</span>
+                            <span class="genre-tag pott-theme">Psychological</span>
+                            <span class="genre-tag pott-theme">Mystery</span>
+                        </div>
+                        <p class="novel-description">
+                            Su Ming is the last Berserker, living in a desolate world of wind and snow, trying to find his lost memories. But is his world real? Are his friends real? Are his memories just a beautifully woven cage of illusion? Follow Su Ming's heart-wrenching, epic journey to pursue the truth of his identity and tear down the illusions of fate.
+                        </p>
+                        <div class="novel-card-footer">
+                            <div class="novel-stats">
+                                <span><i class="fa-solid fa-circle-check" style="color: #2ec4b6;"></i> Completed</span>
+                            </div>
+                            <a href="/pott/" class="btn btn-secondary" id="pott-read-btn">Read Now <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- A Record of a Mortal's Journey to Immortality Card -->
+                <article class="novel-card" data-author="Wang Yu" data-categories="dark ongoing" id="card-rmji">
+                    <div class="novel-card-image-wrapper">
+                        <img src="assets/images/mortal_journey.png" alt="A Record of a Mortal's Journey to Immortality Cover" class="novel-card-image">
+                        <span class="novel-card-badge">Most Popular</span>
+                    </div>
+                    <div class="novel-card-content">
+                        <div class="novel-metadata">
+                            <span><i class="fa-solid fa-scroll"></i> Chapter 1345+</span>
+                            <span>4.9 <i class="fa-solid fa-star" style="color: var(--accent-gold);"></i></span>
+                        </div>
+                        <h4 class="novel-title-chinese">凡人修仙传 · Fan Ren Xiu Xian Zhuan</h4>
+                        <h3 class="novel-title-english">Mortal's Journey to Immortality</h3>
+                        <p class="novel-author"><i class="fa-solid fa-pen-nib"></i> Wang Yu</p>
+                        <div class="novel-genre-tags">
+                            <span class="genre-tag rmji-theme">Xianxia</span>
+                            <span class="genre-tag rmji-theme">Cultivation</span>
+                            <span class="genre-tag rmji-theme">Pragmatic</span>
+                            <span class="genre-tag rmji-theme">Adventure</span>
+                        </div>
+                        <p class="novel-description">
+                            A poor and ordinary boy from a village joins a minor sect in a fluke. He is of the lowest aptitude, yet through immense caution, cold pragmatism, and a mysterious small green liquid vial that speeds up herb maturation, he overcomes celestial beasts, devious elders, and vicious rivals to attain immortality.
+                        </p>
+                        <div class="novel-card-footer">
+                            <div class="novel-stats">
+                                <span><i class="fa-solid fa-rotate"></i> Ongoing</span>
+                            </div>
+                            <a href="/ARecordofaMortalJourneytoImmortality/" class="btn btn-primary" id="rmji-read-btn">Read Now <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Updates -->
+    <section class="updates-section" id="updates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Chapter Releases</h2>
+                <p class="section-subtitle">Stay up-to-date with our active translation schedule. Never miss a single chapter release.</p>
+            </div>
+
+            <div class="updates-grid">
+                
+                <!-- Renegade Immortal Chapters -->
+                <div class="updates-column" id="ri-updates">
+                    <h3 class="updates-col-title ri-col"><i class="fa-solid fa-fire"></i> Renegade Immortal</h3>
+                    <ul class="chapter-list">
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/Renegade-immortal/" class="chapter-link">Chapter 1025</a>
+                                <span class="chapter-title">Setting Foot in the Alliance Alliance</span>
+                            </div>
+                            <span class="chapter-date">2 hours ago</span>
+                        </li>
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/Renegade-immortal/" class="chapter-link">Chapter 1024</a>
+                                <span class="chapter-title">The Rain Clan's Sacred Ancestor</span>
+                            </div>
+                            <span class="chapter-date">1 day ago</span>
+                        </li>
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/Renegade-immortal/" class="chapter-link">Chapter 1023</a>
+                                <span class="chapter-title">The Realm of Slaughter</span>
+                            </div>
+                            <span class="chapter-date">2 days ago</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Pursuit of the Truth Chapters -->
+                <div class="updates-column" id="pott-updates">
+                    <h3 class="updates-col-title pott-col"><i class="fa-solid fa-ghost"></i> Pursuit of the Truth</h3>
+                    <ul class="chapter-list">
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/pott/" class="chapter-link">Chapter 810</a>
+                                <span class="chapter-title">The Immortal Berserker Art</span>
+                            </div>
+                            <span class="chapter-date">5 hours ago</span>
+                        </li>
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/pott/" class="chapter-link">Chapter 809</a>
+                                <span class="chapter-title">The Shaman's Illusionary Cage</span>
+                            </div>
+                            <span class="chapter-date">1 day ago</span>
+                        </li>
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/pott/" class="chapter-link">Chapter 808</a>
+                                <span class="chapter-title">Return to the Dark Mountain</span>
+                            </div>
+                            <span class="chapter-date">3 days ago</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- A Record of a Mortal's Journey to Immortality Chapters -->
+                <div class="updates-column" id="rmji-updates">
+                    <h3 class="updates-col-title rmji-col"><i class="fa-solid fa-leaf"></i> Mortal's Journey</h3>
+                    <ul class="chapter-list">
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/ARecordofaMortalJourneytoImmortality/" class="chapter-link">Chapter 1345</a>
+                                <span class="chapter-title">The Devil Slaying Flag</span>
+                            </div>
+                            <span class="chapter-date">1 hour ago</span>
+                        </li>
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/ARecordofaMortalJourneytoImmortality/" class="chapter-link">Chapter 1344</a>
+                                <span class="chapter-title">The Gold Devouring Beetles</span>
+                            </div>
+                            <span class="chapter-date">1 day ago</span>
+                        </li>
+                        <li class="chapter-item">
+                            <div class="chapter-info">
+                                <a href="/ARecordofaMortalJourneytoImmortality/" class="chapter-link">Chapter 1343</a>
+                                <span class="chapter-title">Deep within the Heavenly Devil Sect</span>
+                            </div>
+                            <span class="chapter-date">2 days ago</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes Carousel -->
+    <section class="quotes-section" id="quotes">
+        <div class="container quotes-container">
+            <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+            
+            <div class="quote-card active" id="quote-1">
+                <p class="quote-text">"If heaven wants to block me, I will shatter heaven. If the earth wants to bury me, I will crush the earth. My path is one of defiance, and I shall walk it to the absolute end!"</p>
+                <h4 class="quote-author">Wang Lin</h4>
+                <p class="quote-novel">Renegade Immortal (仙逆)</p>
+            </div>
+
+            <div class="quote-card" id="quote-2">
+                <p class="quote-text">"What is a Berserker? It is the defiance of destiny. It is holding onto the warmth in your soul even when freezing in a mountain of ice. It is the pursuit of truth through a sea of blood and tears."</p>
+                <h4 class="quote-author">Su Ming</h4>
+                <p class="quote-novel">Pursuit of the Truth (求魔)</p>
+            </div>
+
+            <div class="quote-card" id="quote-3">
+                <p class="quote-text">"The path of cultivation is one of loneliness. Millions start, yet only a handful remain. To see the true peak, one must first learn to walk in absolute solitude."</p>
+                <h4 class="quote-author">Er Gen</h4>
+                <p class="quote-novel">Reflections of the Creator</p>
+            </div>
+
+            <div class="quote-card" id="quote-4">
+                <p class="quote-text">"In the cultivation world, caution is the ultimate law. One must never trust anyone blindly, always preserve a path of retreat, and only take action with absolute certainty. Survival is the path to immortality."</p>
+                <h4 class="quote-author">Han Li</h4>
+                <p class="quote-novel">A Record of a Mortal's Journey to Immortality (凡人修仙传)</p>
+            </div>
+
+            <div class="quote-dots" id="quote-dots">
+                <span class="quote-dot active" data-index="0"></span>
+                <span class="quote-dot" data-index="1"></span>
+                <span class="quote-dot" data-index="2"></span>
+                <span class="quote-dot" data-index="3"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Philosophy Section -->
+    <section class="about-section" id="about">
+        <div class="container about-grid">
+            <div class="about-content" id="about-text-content">
+                <h3>Our Translation Standards</h3>
+                <p>At <strong>Phatmal.live</strong>, we are committed to delivering the ultimate translation quality for Chinese webnovels. We bridge linguistic and cultural gaps to keep the original soul of the author's work alive.</p>
+                
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper"><i class="fa-solid fa-language"></i></div>
+                        <div class="feature-text">
+                            <h4>Accurate Localization</h4>
+                            <p>We preserve cultural connotations, Daoist terminologies, and emotional depth without awkward literal phrases.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper"><i class="fa-solid fa-bolt"></i></div>
+                        <div class="feature-text">
+                            <h4>Dynamic Reading Formats</h4>
+                            <p>Beautiful, clutter-free reading UI with customizable fonts, colors, and line height adjustments.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon-wrapper"><i class="fa-solid fa-users"></i></div>
+                        <div class="feature-text">
+                            <h4>Reader-First Community</h4>
+                            <p>Engage in active discussions, share fanart, and vote on upcoming chapter updates.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Reading Progress Mock Tracker -->
+            <div class="tracker-card" id="tracker-card">
+                <h4 class="tracker-title"><i class="fa-solid fa-bookmark" style="color: var(--accent-purple); margin-right: 8px;"></i> Your Reading Progress</h4>
+                
+                <div class="tracker-item" id="ri-tracker">
+                    <div class="tracker-info">
+                        <span>Renegade Immortal</span>
+                        <span id="ri-progress-txt">Chapter 45 / 1025 (4%)</span>
+                    </div>
+                    <div class="tracker-bar">
+                        <div class="tracker-bar-fill" id="ri-progress-bar" style="width: 4%;"></div>
+                    </div>
+                    <div class="tracker-actions">
+                        <button class="tracker-btn" onclick="updateProgress('ri', 1)">+1 Chapter</button>
+                        <button class="tracker-btn" onclick="updateProgress('ri', 5)">+5 Chapters</button>
+                    </div>
+                </div>
+
+                <div class="tracker-item" id="pott-tracker">
+                    <div class="tracker-info">
+                        <span>Pursuit of the Truth</span>
+                        <span id="pott-progress-txt">Chapter 120 / 810 (15%)</span>
+                    </div>
+                    <div class="tracker-bar">
+                        <div class="tracker-bar-fill" id="pott-progress-bar" style="width: 15%;"></div>
+                    </div>
+                    <div class="tracker-actions">
+                        <button class="tracker-btn" onclick="updateProgress('pott', 1)">+1 Chapter</button>
+                        <button class="tracker-btn" onclick="updateProgress('pott', 5)">+5 Chapters</button>
+                    </div>
+                </div>
+
+                <div class="tracker-item" id="rmji-tracker">
+                    <div class="tracker-info">
+                        <span>Mortal's Journey to Immortality</span>
+                        <span id="rmji-progress-txt">Chapter 200 / 1345 (15%)</span>
+                    </div>
+                    <div class="tracker-bar">
+                        <div class="tracker-bar-fill" id="rmji-progress-bar" style="width: 15%;"></div>
+                    </div>
+                    <div class="tracker-actions">
+                        <button class="tracker-btn" onclick="updateProgress('rmji', 1)">+1 Chapter</button>
+                        <button class="tracker-btn" onclick="updateProgress('rmji', 5)">+5 Chapters</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <a href="#" class="logo-group">
+                    <span class="logo">Phatmal</span>
+                    <span class="sub-logo">ဖတ်မယ်.live</span>
+                </a>
+                <p>
+                    Bringing premium translations of Er Gen's works to standard reading formats. Defy the heavens, pursue the truth, and read immersive content with phatmal.live.
+                </p>
+                <div class="footer-bottom-links" style="margin-top: 10px;">
+                    <a href="https://github.com/winyannainghtut" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github" style="font-size: 1.2rem;"></i></a>
+                    <a href="#" aria-label="Discord"><i class="fa-brands fa-discord" style="font-size: 1.2rem;"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links" id="footer-novels-links">
+                <h5>Novels</h5>
+                <ul>
+                    <li><a href="/Renegade-immortal/">Renegade Immortal</a></li>
+                    <li><a href="/pott/">Pursuit of the Truth</a></li>
+                    <li><a href="/ARecordofaMortalJourneytoImmortality/">Mortal's Journey to Immortality</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links" id="footer-portal-links">
+                <h5>Portal</h5>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#catalog">Catalog</a></li>
+                    <li><a href="#updates">Latest Chapters</a></li>
+                    <li><a href="#about">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Phatmal.live. All rights reserved. Created by Win Yan Naing Htut.</p>
+            <div class="footer-bottom-links">
+                <a href="#" id="disclaimer-btn">Disclaimer</a>
+                <a href="#" id="privacy-btn">Privacy Policy</a>
+                <a href="#" id="terms-btn">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Dynamic Interactions -->
+    <script>
+        // Mobile Toggle Menu
+        const mobileToggle = document.getElementById('mobile-toggle');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileToggle.querySelector('i');
+            if (navLinks.classList.contains('active')) {
+                icon.className = 'fa-solid fa-xmark';
+            } else {
+                icon.className = 'fa-solid fa-bars';
+            }
+        });
+
+        // Sticky Navbar Effect
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.style.background = 'rgba(6, 4, 8, 0.95)';
+                header.style.boxShadow = '0 5px 25px rgba(0,0,0,0.5)';
+            } else {
+                header.style.background = 'rgba(10, 8, 12, 0.85)';
+                header.style.boxShadow = 'none';
+            }
+        });
+
+        // Dynamic Filtering and Searching logic
+        const searchInput = document.getElementById('search-bar');
+        const filterTabs = document.querySelectorAll('.filter-tab');
+        const novelCards = document.querySelectorAll('.novel-card');
+
+        function filterAndSearch() {
+            const searchValue = searchInput.value.toLowerCase().trim();
+            const activeFilter = document.querySelector('.filter-tab.active').getAttribute('data-filter');
+
+            novelCards.forEach(card => {
+                const titleEng = card.querySelector('.novel-title-english').textContent.toLowerCase();
+                const titleChi = card.querySelector('.novel-title-chinese').textContent.toLowerCase();
+                const author = card.querySelector('.novel-author').textContent.toLowerCase();
+                const desc = card.querySelector('.novel-description').textContent.toLowerCase();
+                const categories = card.getAttribute('data-categories').split(' ');
+
+                // Search matching
+                const matchesSearch = titleEng.includes(searchValue) || 
+                                      titleChi.includes(searchValue) || 
+                                      author.includes(searchValue) || 
+                                      desc.includes(searchValue);
+
+                // Category matching
+                const matchesCategory = (activeFilter === 'all') || categories.includes(activeFilter);
+
+                if (matchesSearch && matchesCategory) {
+                    card.style.display = 'flex';
+                    card.style.animation = 'fadeIn 0.5s ease forwards';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        searchInput.addEventListener('input', filterAndSearch);
+
+        filterTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                filterTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                filterAndSearch();
+            });
+        });
+
+        // Quotes Carousel Logic
+        let currentQuote = 0;
+        const quoteCards = document.querySelectorAll('.quote-card');
+        const quoteDots = document.querySelectorAll('.quote-dot');
+
+        function showQuote(index) {
+            quoteCards.forEach(card => card.classList.remove('active'));
+            quoteDots.forEach(dot => dot.classList.remove('active'));
+
+            quoteCards[index].classList.add('active');
+            quoteDots[index].classList.add('active');
+            currentQuote = index;
+        }
+
+        quoteDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                const index = parseInt(dot.getAttribute('data-index'));
+                showQuote(index);
+            });
+        });
+
+        // Auto transition quotes every 8 seconds
+        setInterval(() => {
+            let nextIndex = (currentQuote + 1) % quoteCards.length;
+            showQuote(nextIndex);
+        }, 8000);
+
+        // Interactive Reading Progress Tracker Logic (Persisted in LocalStorage)
+        const novelsMeta = {
+            ri: { total: 1025, default: 45 },
+            pott: { total: 810, default: 120 },
+            rmji: { total: 1345, default: 200 }
+        };
+
+        // Initialize progress
+        function initTracker() {
+            for (const key in novelsMeta) {
+                let saved = localStorage.getItem(`progress_${key}`);
+                if (saved === null) {
+                    saved = novelsMeta[key].default;
+                    localStorage.setItem(`progress_${key}`, saved);
+                }
+                updateProgressBar(key, parseInt(saved));
+            }
+        }
+
+        function updateProgress(novelKey, chaptersToAdd) {
+            let current = parseInt(localStorage.getItem(`progress_${novelKey}`)) || novelsMeta[novelKey].default;
+            let total = novelsMeta[novelKey].total;
+            let updated = Math.min(current + chaptersToAdd, total);
+            
+            localStorage.setItem(`progress_${novelKey}`, updated);
+            updateProgressBar(novelKey, updated);
+        }
+
+        function updateProgressBar(key, value) {
+            const total = novelsMeta[key].total;
+            const percentage = Math.round((value / total) * 100);
+            
+            const progressTxt = document.getElementById(`${key}-progress-txt`);
+            const progressBar = document.getElementById(`${key}-progress-bar`);
+            
+            if (progressTxt && progressBar) {
+                progressTxt.textContent = `Chapter ${value} / ${total} (${percentage}%)`;
+                progressBar.style.width = `${percentage}%`;
+            }
+        }
+
+        // Initialize tracker on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            initTracker();
+        });
+    </script>
+</body>
+</html>
