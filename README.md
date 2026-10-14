@@ -2,7 +2,7 @@
 
 > **Premium Webnovel Translation Portal** for Epic Xianxia & Wuxia Sagas.
 
-Welcome to the GitHub repository for **[phatmal.live](https://winyannainghtut.github.io/)**, a beautifully curated and highly professional landing hub hosting high-quality translations of legendary Chinese webnovels. We focus on bringing immersive, distraction-free reading experiences for masterpieces by legendary Xianxia authors **Er Gen** and **Wang Yu**.
+Welcome to the GitHub repository for **[phatmal.live](https://winyannainghtut.github.io/)**, a beautifully curated and highly professional landing hub hosting high-quality translations of legendary Chinese webnovels. We focus on bringing immersive, distraction-free reading experiences for masterpieces by legendary Xianxia authors **Er Gen**, **Wang Yu**, and **Xiao Ding**.
 
 ---
 
@@ -29,7 +29,7 @@ Our translation catalog features some of the most highly-rated novels in the ent
 ### 2. [Pursuit of the Truth (求魔 - POTT)](/pott/)
 - **Author:** Er Gen (耳根)
 - **Genre:** Xianxia, Tragedy, Psychological, Cultivation, Mystery
-- **Status:** Active / Ongoing Translation
+- **Status:** Completed
 - **Overview:** Journey along with **Su Ming**, the last Berserker, as he awakens in a freezing mountain of ice and snow. Plagued by lost memories and surrounded by an illusionary reality, Su Ming embarks on a tragic, soul-stirring journey to seek the truth of his identity and tear down the chains of fate.
 
 ### 3. [A Record of a Mortal's Journey to Immortality (凡人修仙传 - RMJI)](/ARecordofaMortalJourneytoImmortality/)
@@ -38,6 +38,12 @@ Our translation catalog features some of the most highly-rated novels in the ent
 - **Status:** Completed
 - **Overview:** Follow the story of **Han Li**, a highly cautious and ordinary village boy who joins a minor sect by chance. Lacking inherent talent, Han Li must rely on his razor-sharp wits, extreme vigilance, and a mysterious green vial that matures spiritual herbs to survive a brutal, cutthroat cultivation world and step onto the path of immortality.
 
+### 4. [Zhu Xian (诛仙 - Jade Dynasty)](/zhuxian/)
+- **Author:** Xiao Ding (萧鼎)
+- **Genre:** Classical Xianxia, Wuxia, Romance, Tragedy, Cultivation
+- **Status:** Completed
+- **Overview:** Follow the unforgettable, soul-stirring saga of **Zhang Xiaofan** (later known as **Gui Li**, the Blood Young Master), a kind-hearted and ordinary youth who survives the tragic massacre of Caomiao Village and joins the righteous Qingyun Sect. Entangled between the righteous path and the demonic faction, and bound by deep love and tragic sacrifice, Zhang Xiaofan embarks on an epic journey defying the Dao of Heaven where *"Heaven and Earth are heartless, treating all living things as straw dogs."*
+
 ---
 
 ## ✨ Key Features
@@ -45,7 +51,7 @@ Our translation catalog features some of the most highly-rated novels in the ent
 - **Xianxia-Inspired Dark Aesthetics:** The portal is designed with a premium, custom dark-fantasy palette (obsidian, royal purples, and deep gold accents) to match the atmospheric themes of the novels.
 - **Dynamic Search & Filtering:** Instant, client-side searching and filtering of novels using HTML5 data attributes and optimized JS.
 - **Responsive Layout:** Tailored with mobile-first CSS Grid and Flexbox grids, ensuring stunning visual displays across mobile, tablet, and desktop screens.
-- **Quotes Carousel:** A curated carousel showcasing defining, epic quotes from the main characters of the novels (Wang Lin, Su Ming, and Han Li) to keep readers inspired.
+- **Quotes Carousel:** A curated carousel showcasing defining, epic quotes from the main characters of the novels (Wang Lin, Su Ming, Han Li, and Zhang Xiaofan / Gui Li) to keep readers inspired.
 
 ---
 
@@ -71,9 +77,10 @@ Any changes committed and pushed to the `main` branch will be compiled and made 
 ## ⚖️ Disclaimer & Copyright
 
 1. **Translations:** All translations hosted on this site are fan-made creations intended for non-commercial, standard reading and educational purposes.
-2. **Copyright:** The original raw text, lore, characters, and storylines of *Renegade Immortal (仙逆)*, *Pursuit of the Truth (求魔)*, and *A Record of a Mortal's Journey to Immortality (凡人修仙传)* belong entirely to the authors **Er Gen (耳根)** and **Wang Yu (忘语)**, and the respective publishing platforms (Qidian). 
+2. **Copyright:** The original raw text, lore, characters, and storylines of *Renegade Immortal (仙逆)*, *Pursuit of the Truth (求魔)*, *A Record of a Mortal's Journey to Immortality (凡人修仙传)*, and *Zhu Xian (诛仙)* belong entirely to the authors **Er Gen (耳根)**, **Wang Yu (忘语)**, and **Xiao Ding (萧鼎)**, and the respective publishing platforms (Qidian). 
 3. **Images:** Cover illustrations are custom-generated digital fantasy artworks created solely to visualize the epic realms of the stories.
 
 ---
 
-*“If heaven wants to block me, I will shatter heaven. If the earth wants to bury me, I will crush the earth!”* — **Wang Lin**
+*“If heaven wants to block me, I will shatter heaven. If the earth wants to bury me, I will crush the earth!”* — **Wang Lin**  
+*“Heaven and Earth are heartless, treating all living things as straw dogs.”* — **Zhu Xian (诛仙)**
